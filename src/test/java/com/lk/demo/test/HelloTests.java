@@ -25,7 +25,6 @@ public class HelloTests {
     @Before
     public void setUp() throws Exception {
         mvc = MockMvcBuilders.standaloneSetup(new TestController()).build();
-        System.out.println(mvc.getClass());
     }
 
     @Test
